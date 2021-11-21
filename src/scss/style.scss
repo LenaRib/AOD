@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 $fontfamily: '_Lato_';
 $minwidth: 320px;
+
 @import 'null.scss';
 @import 'ui.scss';
-@import 'header.scss';
-@import 'footer.scss';
+@import 'mixins.scss';
+
+//@import 'header.scss';
+//@import 'footer.scss';
 
 .wrapper {
   overflow: hidden;
   min-height: 100%;
 }
 .container {
-  max-width: 1130px; //margin 0 15
+  max-width: 1130px;
   padding: 0px 15px;
 }
 
@@ -26,7 +30,13 @@ $minwidth: 320px;
 }
 .main-screen {
   flex: 1 0 100%;
+  position: relative;
   &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
   }
 }
 .content {
