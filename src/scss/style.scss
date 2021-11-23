@@ -1,8 +1,10 @@
 @import 'mixins.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 $fontfamily: 'Lato';
 $minwidth: 320px;
+
 @import 'null.scss';
 
 .wrapper {
@@ -14,8 +16,8 @@ $minwidth: 320px;
   padding: 0px 15px;
 }
 
-@import 'header.scss';
 @import 'ui.scss';
+@import 'header.scss';
 
 .page {
   position: absolute;
