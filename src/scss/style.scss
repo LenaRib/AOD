@@ -205,3 +205,37 @@ $minwidth: 320px;
     padding: 0px 0px 70% 0px;
   }
 }
+
+/*   slider   */
+.slider {
+  background-color: rgb(247, 247, 247);
+  padding: 120px 0px 60px 0px;
+  &__body {
+  }
+  &__item {
+    text-align: center;
+  }
+  &__icon {
+    margin: 0px 0px 35px 0px;
+  }
+  &__title {
+    margin: 0px 0px 20px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(53, 55, 56);
+    line-height: 1.2;
+    text-align: center;
+    span {
+      font-weight: 300;
+      color: #848789;
+    }
+  }
+  &__text {
+    text-align: center;
+
+    font-size: 24px;
+    color: rgb(132, 135, 137);
+    line-height: 1.417;
+    font-style: italic;
+  }
+}

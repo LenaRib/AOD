@@ -535,3 +535,34 @@ h6 {
     padding: 0px 0px 70% 0px;
   }
 }
+
+/*   slider   */
+.slider {
+  background-color: #f7f7f7;
+  padding: 120px 0px 60px 0px;
+}
+.slider__item {
+  text-align: center;
+}
+.slider__icon {
+  margin: 0px 0px 35px 0px;
+}
+.slider__title {
+  margin: 0px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #353738;
+  line-height: 1.2;
+  text-align: center;
+}
+.slider__title span {
+  font-weight: 300;
+  color: #848789;
+}
+.slider__text {
+  text-align: center;
+  font-size: 24px;
+  color: #848789;
+  line-height: 1.417;
+  font-style: italic;
+}
