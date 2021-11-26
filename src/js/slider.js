@@ -1,4 +1,7 @@
+//@prepros-append slick.min.js
+console.log('boooo 1');
 if($('.slider__body').length > 0){
+    console.log('boooo');
 	$('.slider__body').slick({
 		//autoplay: true,
 		//infinite: false,

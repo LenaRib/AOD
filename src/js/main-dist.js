@@ -1,0 +1,1 @@
+console.log("its main.js before slider"),console.log("its main.js after slider");
