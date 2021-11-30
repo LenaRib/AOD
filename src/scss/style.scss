@@ -57,7 +57,6 @@ $minwidth: 320px;
     padding: 30px 0px;
   }
 }
-
 .block {
   text-align: center;
   &__icon {
@@ -100,9 +99,7 @@ $minwidth: 320px;
     }
   }
 }
-
 /*   brands   */
-
 .brands {
   &_rev {
     .brands__column {
@@ -122,8 +119,6 @@ $minwidth: 320px;
     &_b {
       flex: 0 1 66.667%;
     }
-  }
-  &__item {
   }
   &__content {
     position: relative;
@@ -214,14 +209,10 @@ $minwidth: 320px;
     padding: 0px 0px 70% 0px;
   }
 }
-
 /*   slider   */
-
 .slider {
   background-color: rgb(247, 247, 247);
   padding: 120px 0px 60px 0px;
-  &__body {
-  }
   &__item {
     text-align: center;
   }
@@ -242,14 +233,12 @@ $minwidth: 320px;
   }
   &__text {
     text-align: center;
-
     font-size: 24px;
     color: rgb(132, 135, 137);
     line-height: 1.417;
     font-style: italic;
   }
 }
-
 /*   shop   */
 .shop {
   &__body {
@@ -267,28 +256,20 @@ $minwidth: 320px;
   }
 }
 .shop {
-  // .shop__body
   &__body {
     @include flexbox();
   }
-  // .shop__column
   &__column {
     flex: 0 1 16.666%;
-    // .shop__column_b
     &_b {
       flex: 0 1 33.333%;
     }
   }
-  // .shop__block
-  &__block {
-  }
-  // .shop__footer
   &__footer {
     padding: 75px 0;
     text-align: center;
     background-color: #282f35;
   }
-  // .shop__btn
   &__btn {
     display: inline-block;
     height: 50px;
@@ -325,23 +306,18 @@ $minwidth: 320px;
 }
 .block-shop {
   height: 100%;
-  // .block-shop__row
   &__row {
     @include flexbox();
   }
-  // .block-shop__column
   &__column {
     flex: 0 1 50%;
   }
-  // .block-shop__item
   &__item {
     height: auto;
     padding: 0px 0px 50% 0px;
-    // .block-shop__item_b
     &_b {
       padding: 0px 0px 200.5% 0px;
     }
-    // .block-shop__item_l
     &_l {
       padding: 0px 0px 100% 0px;
     }
